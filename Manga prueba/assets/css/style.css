@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url("../imgs/header-background.jpg");
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+/* Ajustar el relleno del encabezado */
+.header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+/* Ajustar el espacio entre el encabezado y la sección de mangas */
+.mangas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px; /* Aumentar el espacio entre el encabezado y las imágenes */
+}
+
+.manga {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.manga img {
+    width: 40%;
+    margin: 20px;
+    height: auto;
+    /* Eliminar float para que no cause solapamiento y permitir mejor alineación */
+    object-fit: contain;
+}
+
+.info {
+    text-align: left;
+}
+
+.footer {
+    background-color: brown;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
